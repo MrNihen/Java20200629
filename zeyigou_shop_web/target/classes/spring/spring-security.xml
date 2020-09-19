@@ -48,6 +48,6 @@
 
     <!--6.配置从zookeeper注册中心中得到sellerService对象-->
     <dubbo:application name="zeyigou_shop_web"/>
-    <dubbo:registry address="zookeeper://192.168.25.128:2181"/>
+    <dubbo:registry address="zookeeper://192.168.25.129:2181"/>
     <dubbo:reference interface="com.zeyigou.sellergoods.service.SellerService" id="sellerService"/>
 </beans:beans>

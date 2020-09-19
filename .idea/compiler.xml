@@ -13,8 +13,8 @@
         <module name="zeyigou_sellergoods_service" />
         <module name="fastDFSdemo" />
         <module name="zeyigou_pojo" />
-        <module name="zeyigou_shop_web" />
         <module name="zeyigou_sellergoods_interface" />
+        <module name="zeyigou_shop_web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
